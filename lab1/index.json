@@ -1,0 +1,35 @@
+{
+  "title": "Расследуем взлом малого магазина",
+  "description": "Лабораторная работа 1 курса «Основы информационной безопасности»: реестр активов и разбор журнала входов. 70 минут, все данные вымышленные.",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "background.sh"
+    },
+    "steps": [
+      {
+        "title": "Шаг 1. Проверка среды",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      },
+      {
+        "title": "Шаг 2. Реестр активов магазина",
+        "text": "step2/text.md"
+      },
+      {
+        "title": "Шаг 3. Журнал входов на сервер",
+        "text": "step3/text.md"
+      },
+      {
+        "title": "Шаг 4. Отчёт об инциденте",
+        "text": "step4/text.md"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
